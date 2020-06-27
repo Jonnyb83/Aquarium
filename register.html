@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+ <h4 align="left">
+	 <form method="GET">
+		<label>First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lasttname"><br>
+		Email: <input type="email" name="email" required><br>
+		<!-- Updated min to minlength (min is used only for range inputs. Visit here for more info: https://www.w3schools.com/tags/att_input_maxlength.asp) -->
+		Password: <input type="password" name="password" minLength="5" maxlength="10" required><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender:<br>
+		<input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female">Female
+		<input type="radio" name="gender" value="Other">Other<br>
+		<input type="submit" value="Register!">
+		<input type="reset">
+	 </form>
+	 <a href="index.html">
+	 <h2>Home Page</h2>
+  </h4>
+</body>
+</html>
